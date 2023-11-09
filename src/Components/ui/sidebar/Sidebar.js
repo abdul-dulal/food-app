@@ -13,7 +13,7 @@ const Sidebar = () => {
   const [show, setShow] = useContext(showContext);
 
   const style =
-    " mr-4 h-9 w-9 rounded-[6px] bg-[#fceee9] flex items-stretch justify-center ";
+    " mr-4 h-9 w-9 rounded-[6px] bg-[#fceee9] flex items-center justify-center ";
   return (
     <div>
       <div className=" md:h-[1150px] h-14 bg-white md:w-[70px] w-full shadow">
