@@ -50,7 +50,7 @@ const FruitList = () => {
             return (
               <div
                 key={index}
-                className={`flex items-center pl-3 gap-4 h-[72px] border-2 cursor-pointer  border-white  ${
+                className={`flex items-center pl-3 gap-4 h-[72px]  cursor-pointer   ${
                   element.title === "Oranges"
                     ? "border-2  border-primary rounded-[10px]"
                     : " "

@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <div>
       <HeaderTop />
-      {/* <FoodItem /> */}
+      <FoodItem />
       <div className="md:flex block">
         <div className="md:block hidden">
           <Sidebar />

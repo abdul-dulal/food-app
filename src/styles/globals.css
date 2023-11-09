@@ -4,3 +4,12 @@
 body {
   font-family: "Inter", sans-serif;
 }
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #e55527;
+  border-radius: 50%;
+  cursor: pointer;
+}

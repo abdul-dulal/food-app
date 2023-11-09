@@ -54,7 +54,11 @@ const MenuModal = () => {
               return (
                 <div
                   key={index}
-                  className="flex items-center pl-3 gap-4 h-[72px] border-2 cursor-pointer  border-white  hover:border-2  hover:border-primary hover:rounded-[10px]"
+                  className={`flex items-center pl-3 gap-4 h-[72px] border-2 cursor-pointer   ${
+                    element.title === "Oranges"
+                      ? "border-2  border-primary rounded-[10px]"
+                      : " "
+                  }`}
                 >
                   <div>
                     <Image src={element.img} height={50} width={50} />

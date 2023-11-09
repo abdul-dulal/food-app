@@ -3,9 +3,9 @@ import { LiaAngleDownSolid } from "react-icons/lia";
 import { RxDashboard } from "react-icons/rx";
 const FoodItem = () => {
   return (
-    <div className="relative inline-block w-full my-3 px-3 md:hidden ">
+    <div className="relative inline-block w-full mt-3 px-3 md:hidden ">
       <select className="block appearance-none w-full rounded-lg  px-4 py-4 pr-8  shadow leading-tight focus:outline-none focus:shadow-outline">
-        <span>Select Food Item</span>
+        <option>Select Food Item</option>
 
         <option value="apple">Apples</option>
         <option value="oragne">Oranges</option>

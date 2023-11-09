@@ -12,7 +12,7 @@ const FoodDescription = () => {
   return (
     <div className="bg-white shadow rounded-2xl px-6 md:space-y-4 space-y-6 pt-4">
       <div className="md:flex block gap-6">
-        <div className="">
+        <div className="md:block hidden">
           <div className="md:w-[50px] w-full space-y-4 flex gap-3 md:flex-col items-center md:pt-20 pt-2  ">
             <BiLogoFacebookCircle size={28} color="#1877F2" radius={100} />
             <TiSocialLinkedin
@@ -104,13 +104,28 @@ const FoodDescription = () => {
             <h1 className="text-sm font-bold text-[#212121]">
               Was this helpful?
             </h1>
-            <p className="flex sm:justify-start justify-center py-2">
+            <p className="flex  py-2 md:pb-10 pb-0">
               {Array(4).fill(
                 <AiTwotoneStar className="text-[#E55527] text-[18px] " />
               )}
               <AiOutlineStar color="#E55527" size={18} />
             </p>
           </div>
+        </div>
+      </div>
+      <div className="block md:hidden  pb-10">
+        <div className="md:w-[50px] w-full  flex gap-3 md:flex-col items-center  ">
+          <BiLogoFacebookCircle size={28} color="#1877F2" radius={100} />
+          <TiSocialLinkedin
+            size={27}
+            className=" bg-[#2867B2] text-white rounded-full "
+          />
+          <AiFillTwitterCircle size={28} color="#1DA1F2" radius={100} />
+          <IoIosMore
+            size={28}
+            radius={100}
+            className=" bg-[#E55527] text-white rounded-full"
+          />
         </div>
       </div>
     </div>
