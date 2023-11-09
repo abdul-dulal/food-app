@@ -14,16 +14,26 @@ const FoodDescription = () => {
       <div className="md:flex block gap-6">
         <div className="md:block hidden">
           <div className="md:w-[50px] w-full space-y-4 flex gap-3 md:flex-col items-center md:pt-20 pt-2  ">
-            <BiLogoFacebookCircle size={28} color="#1877F2" radius={100} />
+            <BiLogoFacebookCircle
+              size={28}
+              color="#1877F2"
+              radius={100}
+              className="cursor-pointer"
+            />
             <TiSocialLinkedin
               size={27}
-              className=" bg-[#2867B2] text-white rounded-full "
+              className=" bg-[#2867B2] text-white rounded-full cursor-pointer"
             />
-            <AiFillTwitterCircle size={28} color="#1DA1F2" radius={100} />
+            <AiFillTwitterCircle
+              size={28}
+              color="#1DA1F2"
+              radius={100}
+              className="cursor-pointer"
+            />
             <IoIosMore
               size={28}
               radius={100}
-              className=" bg-[#E55527] text-white rounded-full"
+              className=" bg-[#E55527] text-white rounded-full cursor-pointer"
             />
           </div>
         </div>
