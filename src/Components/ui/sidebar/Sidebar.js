@@ -16,7 +16,7 @@ const Sidebar = () => {
     " mr-4 h-9 w-9 rounded-[6px] bg-[#fceee9] flex items-center justify-center ";
   return (
     <div>
-      <div className=" md:h-[1105px] h-14 bg-white md:w-[70px] w-full shadow">
+      <div className=" md:h-[1150px] h-14 bg-white md:w-[70px] w-full shadow">
         <div className="md:h-screen h-full md:w-20 w-full  md:flex block items-center justify-center ">
           <div className=" md:space-y-8 space-y-0 md:block flex  justify-between items-center pt-3 px-6">
             <Link

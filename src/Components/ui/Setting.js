@@ -21,7 +21,7 @@ const Setting = () => {
   };
 
   return (
-    <div className="bg-white shadow rounded-2xl p-3 md:block hidden">
+    <div className="bg-white shadow rounded-2xl p-3 lg:block hidden">
       <div className=" border-2 border-[#e7e7e7] rounded-2xl  p-2">
         <div
           className="flex justify-between  items-center h-5 cursor-pointer"
@@ -69,7 +69,7 @@ const Setting = () => {
                 Choose Vitamin Type
               </p>
               <div class="relative">
-                <select class="block cursor-pointer appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-2 px-2 pr-8 rounded-md leading-tight focus:outline-none focus:bg-white ">
+                <select class="block cursor-pointer appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-2 px-2 pr-8 rounded-sm leading-tight focus:outline-none focus:bg-white ">
                   <option>All Vitamin</option>
                   <option>Vitamin C</option>
                   <option>Vitamin B6</option>

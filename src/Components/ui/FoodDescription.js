@@ -28,30 +28,32 @@ const FoodDescription = () => {
           </div>
         </div>
         <div className="w-full ">
-          <div className="grid md:grid-cols-2  gap-3 ">
+          <div className="grid 2xl:grid-cols-2  gap-3 ">
             <div className="">
-              <h1 className="text-secondary font-extrabold md:text-[38px] leading-[44px] text-2xl">
+              <h1 className="text-secondary font-extrabold md:text-[38px] xl:text-[25px] xl:leading-[30px] md:leading-[44px] leading-[30px] text-2xl">
                 Health benefits of an avocado
               </h1>
               <h2 className="text-[#212121] mt-3 font-bold text-[18px] ">
-                Supports eye health:{" "}
+                Supports eye health:
               </h2>
               <p className="text-[#212121] font-normal text-sm leading-6 mt-2">
                 Spinach contains high levels of vitamin A and other antioxidants
                 that help maintain healthy vision and protect against
                 age-related macular degeneration.
               </p>
-              <h2 className="text-[#212121] font-bold text-[18px] mt-3 ">
-                Supports eye health:
-              </h2>
-              <p className="text-[#212121] font-normal text-sm  leading-6 mt-2">
-                Spinach contains high levels of vitamin A and other antioxidants
-                that help maintain healthy vision and protect against
-                age-related macular degeneration.
-              </p>
+              <div className="">
+                <h2 className="text-[#212121] font-bold text-[18px] mt-3 ">
+                  Supports eye health:
+                </h2>
+                <p className="text-[#212121] font-normal text-sm  leading-6 mt-2">
+                  Spinach contains high levels of vitamin A and other
+                  antioxidants that help maintain healthy vision and protect
+                  against age-related macular degeneration.
+                </p>
+              </div>
             </div>
             <div className="">
-              <Image src={"/img/mango.png"} width={550} height={0} />
+              <img src={"/img/mango.png"} className="w-full xl:h-[85%]" />
             </div>
           </div>
 
@@ -79,9 +81,9 @@ const FoodDescription = () => {
               age-related macular degeneration..
             </p>
           </div>
-          <div className="grid md:grid-cols-2 gap-4  my-5">
+          <div className="grid 2xl:grid-cols-2 gap-4  my-5">
             <div>
-              <Image src={"/img/apple-big.png"} height={320} width={520} />
+              <img src={"/img/apple-big.png"} className="w-full xl:h-[95%]" />
             </div>
             <div className="flex flex-col justify-center">
               <h2 className="text-[#212121] font-bold text-[18px] md:mt-0 mt-2 ">
@@ -95,8 +97,6 @@ const FoodDescription = () => {
                 vision and protect against age-related macular degeneration..
                 Spinach contains high levels of vitamin A and other antioxidants
                 that help maintain healthy vision and protect against
-                age-related macular degeneration.. Spinach contains high levels
-                of vitamin A and other antioxidants that help maintain healthy
               </p>
             </div>
           </div>

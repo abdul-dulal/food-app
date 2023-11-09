@@ -9,7 +9,7 @@ const MenuModal = () => {
   return (
     <div
       style={{ zIndex: "1000000" }}
-      className="scrollbar-hide md:hidden block  overflow-x-hidden overflow-y-auto inset-0  -top-2 left-0 fixed  absulate right-0 mt-2 w-[83%] h-screen  rounded-md shadow-lg py-1  "
+      className="scrollbar-hide md:hidden block  overflow-x-hidden overflow-y-auto inset-0  -top-2 left-0 fixed  absulate right-0 mt-2 w-[83%] h-screen  rounded-sm shadow-lg py-1  "
     >
       <div>
         <div className=" bg-white shadow rounded-2xl px-3 space-y-4 pt-4">
@@ -54,7 +54,7 @@ const MenuModal = () => {
               return (
                 <div
                   key={index}
-                  className={`flex items-center pl-3 gap-4 h-[72px] border-2 cursor-pointer   ${
+                  className={`flex items-center pl-3 gap-4 h-[72px]  cursor-pointer   ${
                     element.title === "Oranges"
                       ? "border-2  border-primary rounded-[10px]"
                       : " "
